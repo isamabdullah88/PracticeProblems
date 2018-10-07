@@ -34,7 +34,7 @@ public:
 };
 
 
-int main() {
+int main(int argc, char const *argv[]) {
 	cout << "Main called!" << endl;
 	Solution sol;
 	vector<string> word = sol.fizzBuzz(15);
